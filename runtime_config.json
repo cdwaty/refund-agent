@@ -1,0 +1,10 @@
+{
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:xxx:runtime/returns_refunds_agent-xxx",
+  "agent_name": "returns_refunds_agent",
+  "region": "us-west-2",
+  "entrypoint": "17_runtime_agent.py",
+  "memory_id": "returns_refunds_memory-xxx",
+  "gateway_url": "https://returnsrefundsgateway-xxx.gateway.bedrock-agentcore.us-west-2.amazonaws.com/mcp",
+  "gateway_id": "returnsrefundsgateway-xxx",
+  "knowledge_base_id": "xxx"
+}

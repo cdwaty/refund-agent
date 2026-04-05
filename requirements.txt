@@ -1,0 +1,21 @@
+# Core AgentCore Runtime dependencies
+bedrock-agentcore>=0.1.0
+bedrock-agentcore-starter-toolkit>=0.1.0
+
+# Strands agent framework
+strands-agents>=0.1.0
+strands-agents-tools>=0.1.0
+
+# AWS SDK
+boto3>=1.34.0
+botocore>=1.34.0
+
+# HTTP client for MCP gateway
+requests>=2.31.0
+httpx>=0.27.0
+
+# MCP (Model Context Protocol) client
+mcp>=1.0.0
+
+# Additional dependencies for runtime
+python-dateutil>=2.8.0

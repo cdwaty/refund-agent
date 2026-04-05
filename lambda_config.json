@@ -1,0 +1,27 @@
+{
+  "function_name": "OrderLookupFunction",
+  "function_arn": "arn:aws:lambda:us-west-2:xxxx:function:OrderLookupFunction",
+  "lambda_role_arn": "arn:aws:iam::xxx:role/OrderLookupLambdaRole-xxx",
+  "region": "us-west-2",
+  "tool_schema": {
+    "name": "lookup_order",
+    "description": "Look up order details by order ID. Returns order information including product name, purchase date, amount, and return eligibility. Use this to check if a customer's order can be returned.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "order_id": {
+          "type": "string",
+          "description": "The order ID to look up (e.g., ORD-001, ORD-002, ORD-003)"
+        }
+      },
+      "required": [
+        "order_id"
+      ]
+    }
+  },
+  "sample_orders": [
+    "ORD-001: Dell XPS 15 Laptop (recent, eligible)",
+    "ORD-002: iPhone 13 Pro (old, not eligible)",
+    "ORD-003: Samsung Galaxy Tab S8 (defective, eligible)"
+  ]
+}

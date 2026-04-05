@@ -1,0 +1,16 @@
+{
+  "id": "returnsrefundsgateway-xxxx",
+  "gateway_id": "returnsrefundsgateway-xxx",
+  "gateway_url": "https://returnsrefundsgateway-xxxx.gateway.bedrock-agentcore.us-west-2.amazonaws.com/mcp",
+  "gateway_arn": "arn:aws:bedrock-agentcore:us-west-2:xxxx:gateway/returnsrefundsgateway-xxx",
+  "name": "ReturnsRefundsGateway",
+  "region": "us-west-2",
+  "targets": [
+    {
+      "target_id": "xxxx",
+      "target_name": "OrderLookup",
+      "tool_name": "lookup_order",
+      "lambda_arn": "arn:aws:lambda:us-west-2:xxx:function:OrderLookupFunction"
+    }
+  ]
+}
