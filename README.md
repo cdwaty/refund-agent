@@ -18,7 +18,7 @@ This agent provides:
 ┌─────────────────────────────────────────────────────────────┐
 │                    AgentCore Runtime                        │
 │  ┌────────────────────────────────────────────────────┐     │
-│  │         17_runtime_agent.py                        │     │
+│  │         Strands Agent                              │     │
 │  │  - Custom Tools (eligibility, refunds, formatting) │     │
 │  │  - Bedrock Model (Claude Sonnet 4.5)               │     │
 │  └────────────────────────────────────────────────────┘     │
